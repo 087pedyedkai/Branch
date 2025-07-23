@@ -18,7 +18,7 @@
         hint="ชื่อและนามสกุล"
         lazy-rules
         :rules="[ val => val && val.length > 0 || 'กรุณาพิมพ์ชื่อ']"
-        :rules="[ val => val && val.length > 0 || 'กรุณาพิมพ์ชื่อ']"
+        :rules="[ val => val && val.length > 0 || 'กรุณาพิมพ์ชื่อ COLD']"
       />
 
 
